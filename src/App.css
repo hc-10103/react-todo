@@ -114,3 +114,9 @@ input {
     font-weight: bold;
     margin-bottom: 10px;
 }
+
+#todo-item:focus {
+    border-color : #ffcc00;
+    box-shadow: 0 0 12px rgba(255, 204, 0, 0.5);
+    outline: none;
+}

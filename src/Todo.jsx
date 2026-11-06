@@ -3,7 +3,7 @@ import './App.css';
 
 function Todo({ id, todo, onToggle, onDelete }) {
   return (
-    <li id='todo-item'>
+    <li id='todo-item' tabIndex = {0}>
       <p 
         style={{ 
           textDecoration: todo.completed ? 'line-through' : 'none', 
