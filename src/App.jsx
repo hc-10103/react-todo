@@ -45,16 +45,16 @@ function App() {
       <main>
         <form onSubmit={addTodo}>
           <div id='todo-container'>
-            <h2 id='todo-list-header'>To-Do List</h2>
+            <h2 id='todo-list-header'>일정 관리</h2>
             <div id='todo-input-group'>
               <input 
                 type="text" 
                 value={inputText} 
                 onChange={(e) => setInputText(e.target.value)} 
-                placeholder='Type something...' 
+                placeholder='일정을 입력하세요' 
                 maxLength={100}
               />
-              <button type="submit" id='submit_button'>Add</button>
+              <button type="submit" id='submit_button'>추가</button>
             </div>
           </div>
         </form>

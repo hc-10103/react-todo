@@ -15,9 +15,9 @@ function Todo({ id, todo, onToggle, onDelete }) {
       </p>
       <div className='buttons'>
         <button type='button' onClick={() => onToggle(id)}> 
-          {todo.completed ? 'Undo' : 'Complete'} 
+          {todo.completed ? '되돌리기' : '완료로 표시'} 
         </button>
-        <button type='button' onClick={() => onDelete(id)}>Delete</button>
+        <button type='button' onClick={() => onDelete(id)}>삭제</button>
       </div>
     </li>
   );
