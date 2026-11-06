@@ -61,18 +61,20 @@ function Todo({ id, todo, onToggle, onDelete }) {
 export default Todo; 
 ```
 
-id와 todo 객체, 완료 여부, 삭제 여부를 받아 상태를 변경하는 코드이다.
-todo 객체의 상태에 따라 삼항연산자로 해당 객체의 출력 형식을 변경하고, onToggle(id)과 onDelete(id)를 통해 클릭될 때 todo.completed 값으로 상태를 설정한다.
+id와 todo 객체, onToggle, onDelete를 받아 상태를 표시하는 코드이다.
+todo 객체의 상태에 따라 삼항연산자로 해당 객체의 출력 형식을 취소선, 투명도, 버튼 문구를 설정한다. onToggle(id)과 onDelete(id)를 통해 클릭될 때 todo.completed 값을 설정하거나 삭제하는 함수를 실행힌다.
 
 
 ## 수정한 부분
 1. App.css에서 전반적인 디자인 계열을 aqua - > pink 계열로 수정
-2. 프로그램의 언어를 한국어에서 영어로 수정
+2. 프로그램의 언어를 영어에서 한국어로 수정
 3. 일정을 클릭할 시 강조되도록 기능 추가
 
 ![변경 이후 디자인](screenshots/screenshot2.png)
+- 변경 이후 디자인 
 
 ![변경 이후 강조 기능](screenshots/screenshot3.png)
+- 강조 기능
 
 ## weekly review
 
