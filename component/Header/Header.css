@@ -13,7 +13,7 @@ h1#brand-name {
     align-items: center;
     border-style: solid;
     border-width: 5px 7px;
-    border-color: aqua;
+    border-color: deeppink;
     border-radius: 20px;
     padding: 10px;
     color: aqua;
@@ -39,7 +39,7 @@ h1#brand-name:hover {
     text-decoration: none;
     color: aqua;
     border-style: solid;
-    border-color: aqua;
+    border-color: deeppink;
     padding: 10px;
     border-radius: 25px;
     transition: 0.3s ease;

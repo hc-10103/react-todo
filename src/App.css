@@ -20,15 +20,15 @@ input {
     font-size: 20px;
     border-radius: 20px;
     border-style: none;
-    color: rgb(0, 110, 110);
+    color: rgb(21, 20, 21);
     padding: 10px;
 }
 #todo-container {
-    background-color: #141414;
+    background-color: #212121;
     padding: 30px;
     border-radius: 30px;
     border-style: solid;
-    border-color: aqua;
+    border-color: pink;
     color: whitesmoke;
     gap: 10px;
 }
@@ -38,15 +38,15 @@ input {
     width: 80px;
     border-radius: 20px;
     transition: 0.3s ease;
-    border-color: aqua;
-    color: aqua;
+    border-color: pink;
+    color: pink;
     font-family: sans-serif;
     font-size: large;
 }
 #submit_button:hover {
     color: rgb(20, 20, 20);
-    background-color: aqua;
-    box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+    background-color: pink;
+    box-shadow: 0 0 10px rgba(187, 0, 255, 0.5);
 }
 #todo-input-group {
     display: flex;
@@ -61,7 +61,7 @@ input {
     justify-content: space-between;
     align-items: center;
     border-style: solid;
-    border-color: aqua;
+    border-color: pink;
     border-radius: 20px;
     padding: 15px;
     width: 500px;
@@ -86,15 +86,15 @@ input {
     width: 70px;
     height: 40px;
     border-radius: 10px;
-    border: 1px solid aqua;
+    border: 1px solid pink;
     background-color: transparent;
-    color: aqua;
+    color: pink;
     font-weight: bold;
     cursor: pointer;
     transition: 0.3s ease;
 }
 .buttons button:hover {
-    background-color: aqua;
+    background-color: pink;
     color: rgb(20, 20, 20);
     box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
 }
